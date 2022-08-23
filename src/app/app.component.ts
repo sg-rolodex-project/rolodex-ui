@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rolodex-ui';
+
+  isLoggedIn: boolean = true;
+
+  login() {
+    // toggles isLoggedIn
+  }
 }
